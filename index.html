@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rectángulo</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <div class="contenedor">
+
+        <h1>Rectángulo</h1>
+
+        <h3>Definición de Rectángulo</h3>
+
+        <p>
+            Es una figura geométrica de cuatro lados
+            que tiene cuatro ángulos rectos de 90°.
+            Sus lados opuestos son iguales.
+        </p>
+
+        <h3>Fórmulas</h3>
+
+        <p>Área = base * altura</p>
+        <p>Perímetro = 2 * base + 2 * altura</p>
+        <img src="Rectangulo.jpg" alt="rectangulo" height="200" width="150">
+
+        <div class="dibujo">
+            <div class="rectangulo"></div>
+        </div>
+
+        <h3>Ingrese base</h3>
+        <input type="number" id="base" placeholder="Ingrese base">
+
+        <h3>Ingrese altura</h3>
+        <input type="number" id="altura" placeholder="Ingrese altura">
+
+        <br><br>
+
+        <button onclick="calcular()">Calcular</button>
+
+        <h3 id="resultado"></h3>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
